@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+     <link rel="icon" href="images/excel.png">
+        <!--font awesome-->
+    <link href="font/css/all.css" rel="stylesheet">
+    <!-- Boostrap csss-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="font/css/fontawesome.min.css">
+    <title>Excel Finance</title>
+</head>
+<body style="background-color: #f2f2f2;">
+
+<!--Navigation-->
+
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top p-2">
+    <div class="container">
+        <a class="navbar-brand" href="#">
+            <img class="logo" src="images/excel.png" width="150" height="25"  alt="">
+        </a>
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item text-white register">
+              <a href="https://divinechuks.github.io/webTraderLogin/" class="btn btn-primary btn-md">Login</a>
+          </li>
+        </ul> 
+    </div>
+  </nav>
+
+    <section class="form-section">
+        <div class="container mb-5">
+            <div class="row">
+                <div class="col-12 text-center mb-3">
+                    <h2>Login</h2>
+                </div>
+            </div>
+            <div class="row mb-3"> 
+                <div class="col-md-6 mx-auto">
+                    <form class="form-container" id="form">
+                        <div class="form-group mt-3 mb-4">
+                            <input type="email" class="form-control shadow-none" id="email" placeholder="Email">
+                        </div>
+
+                        <div class="form-group mb-4">
+                            <input type="password" class="form-control shadow-none" id="password" placeholder="Password">
+                            <img class="eye" id="togglePassword" src="images/eye-slash.svg">
+                        </div>
+                        <a href="" class="text-danger"><strong><p class="text-center">Forgot password?</p></strong></a>
+                        <p class="text-muted text-center">Don't have an account? <a href="" class="text-danger">Register</a></p>
+                        <a href="#" class="btn btn-block btn-primary mb-3 btnReg">Login</a>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="container warning-section">
+        <div class="row mb-3">
+            <div class="col-md-6 mx-auto">
+                <div class="warning">
+                <small class="text-muted">
+                    All trading involves risk. Only risk capital you're prepared to lose.</small>
+                </div>
+                <button class="btn btn-md warning-btn text-bold" style="background-color: #fff;"><strong>RISK TAKING</strong></button>
+            </div>
+        </div>
+    </div>
+
+    <div class="py-3">
+        
+    </div>
+
+<div class="navbar fixed-bottom navbar-dark copy p-1" style="background-color: #343a40;">
+    <div class="container">
+        <div class="pl-3">
+            <a href=""><small>Terms of Service</small></a>
+        </div>
+        <div class="pl-3">
+             <a href=""><small>Privacy Policy</small></a>
+        </div>
+         <ul class="navbar-nav ml-auto">
+          <li class="nav-item text-white register">
+              <small>Copyright 2021 &copy; Excel Finance Group | All Right Reserved</small>
+          </li>
+        </ul>           
+    </div>
+</div>
+
+
+  <script>
+          const togglePassword = document.querySelector('#togglePassword');
+    const password = document.querySelector('#password');
+
+    togglePassword.addEventListener('click', function (e) {
+        // toggle the type attribute
+        const type = password.getAttribute('type') === 'password' ? 'text' : 'password';
+        password.setAttribute('type', type);
+        // toggle the eye / eye slash icon
+        this.classList.toggle('bi-eye');
+    });
+  </script> 
+
+
+
+    
+
+<script src="js/jquery.min.js"></script>
+   <!-- Popper JS -->
+<script src="js/popper.min.js"></script>
+   <!-- Latest compiled JavaScript -->
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
