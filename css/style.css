@@ -32,8 +32,8 @@ nav {
 
 .warning-btn {
   position: absolute;
-  top: -30%;
-  left: 40%;
+  top: -11%;
+  left: 17%;
   font-weight: bold;
 }
 
@@ -69,6 +69,13 @@ input:focus {
   .logo {
     margin-left: 26px;
   }
+
+  .warning-btn {
+  position: absolute;
+  top: -7%;
+  left: 17%;
+  font-weight: bold;
+}
 
   .register {
     margin-right: 10px;
