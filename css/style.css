@@ -18,6 +18,18 @@ nav {
   color: #fff !important;
 }
 
+.form-control {
+  transition: all 0.3s !important;
+  border-radius: 4px !important;
+  height: 48px !important;
+  border: 1px solid #e1e1e1 !important;
+  font-size: 14px !important;
+  font-weight: 500 !important;
+  width: 100% !important;
+  background: transparent !important;
+  padding: 0 16px !important;
+}
+
 
 .form-section {
   margin-top: 40px;
@@ -25,7 +37,7 @@ nav {
 
 .eye {
   position: absolute;
-  top: 38%;
+  top: 40%;
   right: 12%;
   cursor: pointer;
 }
@@ -88,7 +100,7 @@ input:focus {
   }
   .eye {
   position: absolute;
-  top: 38%;
+  top: 40%;
   right: 17%;
 }
 
