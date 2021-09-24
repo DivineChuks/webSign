@@ -103,6 +103,14 @@ input:focus {
     margin-left: 26px;
   }
 
+  .warning-risk {
+  position: absolute;
+  top: -23%;
+  left: 10%;
+  font-weight: bold;
+}
+
+
   .warning-btn {
   position: absolute;
   top: -7%;
