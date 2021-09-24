@@ -38,9 +38,14 @@ nav {
 .eye {
   position: absolute;
   top: 40%;
-  right: 12%;
+  right: 13%;
   cursor: pointer;
 }
+
+a {
+  text-decoration: none !important;
+}
+
 
 .warning-btn {
   position: absolute;
